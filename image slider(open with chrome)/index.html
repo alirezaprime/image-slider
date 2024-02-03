@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>image slider</title>
+  </head>
+  <body>
+    <!-- image slider start -->
+    <div class="slider">
+      <div class="slides">
+        <!-- radio button start -->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <!-- radio button end -->
+        <!-- slide image start -->
+        <div class="slide first">
+          <img src="style/images/1.jpg.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="style/images/2.jpg.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="style/images/3.jpg.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="style/images/4.jpg.jpg" alt="" />
+        </div>
+        <!-- slide image end -->
+        <!-- atomatic navigation start -->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!-- atomatic navigation end -->
+      </div>
+      <!-- manual navigation start -->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!-- manual navigation end -->
+    </div>
+    <!-- image slider end -->
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
